@@ -1,0 +1,14 @@
+﻿Candidate_ID,Formulation_Group,Mn2+,RA_conc,Preparation_pH,Polymer_A_OHA,Polymer_A_OHA-DAB,Polymer_B_CMC,Split
+ODCM-001,F1,0,0,7.4,1,0,1,train
+ODCM-002,F2,0,0,7.4,0,1,1,train
+ODCM-003,F3,1,0,7.4,0,1,1,train
+ODCM-004,F4,1,1,5.5,0,1,1,test
+ODCM-005,F5,1,1,7.4,0,1,1,val
+ODCM-006,F1,0,0,7.4,1,0,1,train
+ODCM-007,F2,0,0,7.4,0,1,1,train
+ODCM-008,F3,1,0,7.4,0,1,1,train
+ODCM-009,F4,1,1,5.5,0,1,1,test
+ODCM-010,F1,0,0,7.4,1,0,1,train
+ODCM-011,F2,0,0,7.4,0,1,1,train
+ODCM-012,F3,1,0,7.4,0,1,1,train
+ODCM-013,F4,1,1,5.5,0,1,1,test

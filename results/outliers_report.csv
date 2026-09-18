@@ -1,0 +1,2 @@
+﻿column,n_valid,Q1,Q3,lower,upper,n_outliers,outliers
+Preparation_pH,13,7.4,7.4,7.4,7.4,3,3=5.5; 8=5.5; 12=5.5

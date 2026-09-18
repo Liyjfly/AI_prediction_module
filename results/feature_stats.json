@@ -1,0 +1,38 @@
+{
+  "feature_columns": [
+    "Mn2+",
+    "RA_conc",
+    "Preparation_pH",
+    "Polymer_A_OHA",
+    "Polymer_A_OHA-DAB",
+    "Polymer_B_CMC"
+  ],
+  "target_columns": [],
+  "group_split": true,
+  "stats": {
+    "Mn2+": {
+      "mean": 0.333333,
+      "std": 0.471405
+    },
+    "RA_conc": {
+      "mean": 0.0,
+      "std": 1.0
+    },
+    "Preparation_pH": {
+      "mean": 7.4,
+      "std": 0.0
+    },
+    "Polymer_A_OHA": {
+      "mean": 0.333333,
+      "std": 0.471405
+    },
+    "Polymer_A_OHA-DAB": {
+      "mean": 0.666667,
+      "std": 0.471405
+    },
+    "Polymer_B_CMC": {
+      "mean": 1.0,
+      "std": 1.0
+    }
+  }
+}
