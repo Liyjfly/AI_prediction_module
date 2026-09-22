@@ -1,9 +1,8 @@
-Mn2+,RA_conc,Preparation_pH,Polymer_A_OHA-DAB,Polymer_B_CMC
+Mn,RA,Preparation_pH,Polymer_A_OHA-DAB,Polymer_B_CMC
 0,0,7.4,False,True
 0,0,7.4,True,True
 1,0,7.4,True,True
 1,1,5.5,True,True
-1,1,7.4,True,True
 0,0,7.4,False,True
 0,0,7.4,True,True
 1,0,7.4,True,True

@@ -5,19 +5,18 @@ import os
 print("正在读取数据...")
 df = pd.read_csv('data/formulation_dataset.csv')
 
-# 1. 把 + 和 - 转换成 1 和 0
-df['Mn2+'] = df['Mn2+'].replace({'+': 1, '-': 0})
-df['RA_conc'] = df['RA_conc'].replace({'+': 1, '-': 0})
+# 1. 把 + 和 - 转换成 1 和 0df = pd.get_dummies(df, columns=['Polymer_A', 'Polymer_B'])
 
 # 2. 文字列转换为数字
 df = pd.get_dummies(df, columns=['Polymer_A', 'Polymer_B'])
 
 # 3. ⚠️ 直接手动指定：输入列和输出列
 input_cols = ['Mn2+', 'RA_conc', 'Preparation_pH', 'Polymer_A_OHA-DAB', 'Polymer_B_CMC']
+input_cols = ['Mn', 'RA', 'Preparation_pH', 'Polymer_A_OHA-DAB', 'Polymer_B_CMC']
 
 # 输出列 = 所有列 - 输入列 - Candidate_ID
 # 不检查名字，直接减，只要在 df 里，就自动加入
-output_cols = [c for c in df.columns if c not in input_cols and c != 'Candidate_ID']
+output_cols = ['MRAS_CFU', 'E_coli_CFU', 'MRSA_Biofilm', 'E_coli_Biofilm', 'ROS', 'M2', 'Arg1', 'IL-10', 'M1', 'iNOS', 'TNF-a', 'p16', 'p21', 'RUX-2', 'OCN']
 
 print(f"输入列（{len(input_cols)}个）：", input_cols)
 print(f"输出列（{len(output_cols)}个）：", output_cols)
